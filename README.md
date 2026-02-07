@@ -16,22 +16,20 @@ This script should be run in a folder and creates several different documents wh
 
 **In order to generate the report from Internet Advancement**
 In Internet Advancement:
-	Go to Reports on the side bar
-	Click "New Report" and select "New Custom Report (Report Builder)"
-	Check the following boxes:
-		Show Empty Requirements
-		Show Requirement Descriptions
-		Show CS Adventure Requirements (Version: Latest)
-		Show Current Rank
-		Show Next Rank
-	  All Scouts (deselect any who may have dropped/you don't want included)
-		For each rank:
-			Rank Status
-			Rank Requirements
-			Required Adventures
-	click "Run"
-	Click the CSV button to download the file
-	Copy the csv into the AdvancementReports folder.
-	Rename the file to "reportbuilder.csv"
-	
-	
+1. Go to Reports on the sidebar
+2. Click "New Report" and select "New Custom Report (Report Builder)"
+3. Check the following boxes:
+-Show Empty Requirements
+-Show Requirement Descriptions
+-Show CS Adventure Requirements (Version: Latest)
+-Show Current Rank
+-Show Next Rank
+-All Scouts (deselect any who you may have dropped/you don't want included)
+-For Each Rank:
+--Rank Status
+--Rank Requirements
+--Required Adventures
+4. Click "Run"
+5. Click the CSV button to download the file
+6. Copy the csv file into the folder where you have the script
+7. Rename the file to "reportbuilder.csv" 
