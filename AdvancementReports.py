@@ -240,7 +240,7 @@ def findCompletion(scout_reqs):
 
 def makeDenOverview(denElements, styles, packElements, rank):
     #Logos to use
-    main_logo = Image("logos" + os.sep + "Logo.png", width=1.25*inch, height=1.0*inch)
+    main_logo = Image("logos" + os.sep + "Logo.png", width=1.0*inch, height=1.0*inch)
     den_logo = Image("logos" + os.sep + rank + ".png", width=1.0*inch, height=1.0*inch)
 
     #title and subtitles
@@ -341,7 +341,7 @@ def makeDenOverview(denElements, styles, packElements, rank):
 def buildRequirementSnapshot(denElements, styles, rank):
     #add the page title
         #Logos to use
-    main_logo = Image("logos" + os.sep + "Logo.png", width=1.25*inch, height=1.0*inch)
+    main_logo = Image("logos" + os.sep + "Logo.png", width=1.0*inch, height=1.0*inch)
     den_logo = Image("logos" + os.sep + rank + ".png", width=1.0*inch, height=1.0*inch)
 
     #title and subtitles
@@ -446,7 +446,7 @@ def addScoutReportPage(scout, denElements, styles, rank):
     scoutElements.append(Spacer(1, 0.3*inch))
     '''
     #Logos to use
-    main_logo = Image("logos" + os.sep + "Logo.png", width=1.25*inch, height=1.0*inch)
+    main_logo = Image("logos" + os.sep + "Logo.png", width=1.0*inch, height=1.0*inch)
     den_logo = Image("logos" + os.sep + rank + ".png", width=1.0*inch, height=1.0*inch)
 
     #title and subtitles
@@ -626,4 +626,5 @@ for rank in ranks:
     shutil.copy(reportname, os.path.join(rank, reportname))
 
 #print the finished pack PDF
+
 packDoc.build(packElements)
